@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 89vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.head{
+    text-align: center;
+}
+.form{
+    border: 1px solid black;
+    padding: 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px #000000;
+    border: none;
+    border-color: transparent;
+}
+label{
+    padding: 15px;
+    flex: 0 0 75px;
+}
+input,select{
+    margin: 15px;
+    flex: 1;
+}
+.form1{
+    display: flex;
+    align-items: center;
+}
+input:focus{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
